@@ -7,9 +7,8 @@ import java.util.Scanner;
  * delete all of this. The only thing that matters is that some class in this
  * folder has a main method and the whole thing compiles.
  *
- * Before you write any code:
- *   1. Your paper proposal is approved.
- *   2. You know what your six real data points are (README rule 2).
+ * Before you write any code you should know what 
+ * your six real data points are (README rule 1).
  *
  * Remember: one method somewhere in your project carries the comment
  *   // NO AI: written entirely by me

@@ -2,8 +2,8 @@
 
 **AP Computer Science A | Quarter 1 | 20 points | Individual**
 
-*Every date for this project lives on Canvas: when the proposal is due, when the work
-day is, when the code is due, and when you present. Check there.*
+*Every date for this project lives on Canvas: when the work day is, when the code is
+due, and when you present. Check there.*
 
 ## The short version
 
@@ -92,23 +92,12 @@ probably use more than one.
 If you get truly stuck on storage, come find me. This constraint is deliberate, and working
 inside it is worth more than working around it.
 
-## Five rules that make this yours
+## Three rules that make this yours
 
 These exist because a generic assignment produces generic AI output. Each of these makes
 your project impossible to generate from this document alone.
 
-### 1. The proposal happens in class, on paper
-
-At the end of the launch block you will write, by hand, on a sheet I hand you:
-
-* What your program does, in three sentences
-* Your personal data anchor (rule 2)
-* Two class names, their instance variables, and three method names each
-
-I collect it before you leave. You do not start coding until I have approved it. If your
-idea changes later, that is fine, but tell me.
-
-### 2. Your program must use real data from your own life
+### 1. Your program must use real data from your own life
 
 Your program has to contain at least **six specific, real data points that I cannot look up
 and AI cannot invent.** Your actual class schedule with room numbers. Your team's real
@@ -121,7 +110,7 @@ values, that you can vouch for.
 You will list all six in `REFLECTION.md` and say where each came from. During your
 presentation I will pick one and ask you about it.
 
-### 3. One method must be written with no AI at all
+### 2. One method must be written with no AI at all
 
 Pick a method. Write it completely yourself, no AI, no autocomplete suggestions accepted.
 Put this comment directly above it:
@@ -134,7 +123,7 @@ It does not need to be the hardest method. It does need to be real: more than th
 with at least one conditional or loop in it. During your presentation I will ask why you
 picked that one and what part of it gave you trouble.
 
-### 4. Your commit history must show real work
+### 3. Your commit history must show real work
 
 Push to this repo as you go. I require **at least five commits across at least three
 different days**, with messages that say what actually changed ("added the scoring method,"
@@ -142,12 +131,6 @@ not "update").
 
 One enormous commit the night before the deadline tells me the whole program appeared at
 once, and I will aim my questions at the parts you understand least.
-
-### 5. Something must be working by the end of the work day
-
-Before you leave on the in-class work day, push a commit with at least one class that compiles
-and one method that does something. It does not need to be finished, or good. It needs to
-exist, and it needs a timestamp from that afternoon.
 
 ## What to submit
 
@@ -196,11 +179,10 @@ on a slide.
 
 | Category | Points | What earns full marks |
 |---|---|---|
-| **Presentation** | **10** | You explain every line asked about, in your own words. You can trace your own code out loud. You can account for your storage choice, your no-AI method and your data. |
+| **Presentation** | **12** | You explain every line asked about, in your own words. You can trace your own code out loud. You can account for your storage choice, your no-AI method and your data. |
 | It works | 3 | Compiles, runs, does what `REFLECTION.md` says, survives one bad input. |
 | Boundaries | 2 | Console, interactive, stateful class, 120 to 250 lines, no arrays or ArrayLists, nothing from the "must not" list. |
-| Proposal and design | 2 | In-class paper proposal completed, and the program resembles it or you told me what changed. |
-| Commit history | 1 | Five or more commits across three or more days, plus the work day commit. |
+| Commit history | 1 | Five or more commits across three or more days, with messages that say what changed. |
 | `REFLECTION.md` | 2 | All questions answered, six real data points listed with sources. |
 
 Ambition is not graded. A small program you understand completely beats a large one you do
